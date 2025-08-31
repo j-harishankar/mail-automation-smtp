@@ -121,7 +121,23 @@ mail-automation-smtp/
         main.py         # Script to send a random quote
         quotes.txt      # Collection of quotes
 ```
+## 🚀 Run on Cloud
 
+You can host this project on the cloud to run automatically every day without keeping your PC on.
+
+### 1. Run on **PythonAnywhere** (Free & Simple)
+
+1. Create a free account at [PythonAnywhere](https://www.pythonanywhere.com/).
+2. Upload your project files (`automatic birthday email sender`, `Email automation`, `.env`, etc.).
+3. Add environment variables (`MY_EMAIL`, `MY_PASSWORD`) in the **Web → Environment Variables** section.
+4. Use the **Tasks tab → Schedule a task** to run your scripts daily:
+
+   ```bash
+   python3 /home/your-username/mail-automation-smtp/automatic\ birthday\ email\ sender/main.py
+   python3 /home/your-username/mail-automation-smtp/Email\ automation/main.py
+   ```
+
+---
 ## Contributing
 
 Contributions are welcome! Suggestions:

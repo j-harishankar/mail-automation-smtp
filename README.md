@@ -100,8 +100,9 @@ python quote_sender.py
 
 ---
 
-## Project Structure
+## 📂 Project Structure
 
+```
 mail-automation-smtp/
 │   .env                # Environment variables (email + app password)
 │   .gitignore          # Ignored files for git
@@ -119,8 +120,7 @@ mail-automation-smtp/
 └───Email automation/
         main.py         # Script to send a random quote
         quotes.txt      # Collection of quotes
-
----
+```
 
 ## Contributing
 
